@@ -9,7 +9,7 @@ This program is a simple contract written in Solidity, a programming language us
 This is link to my source code https://gist.github.com/Ankit176y/1e81c7522f3301b1d5a16f56327e8e55
 
 ## Getting Started
-I have created a new contract named "MyToken" in which I Have created 3 variables in which two are string (Token_name and Token_abbrev) and one is unsigned integer Total_supply next we have mapped our address with the Balances .Then we have created two function 1.Mint function which take address and value as parameter's and then increase the total supply and the balance of the “sender” with the Value.
+I have created a new contract named "MyToken" in which I Have created 3 variables in which two are string (Token_name ="Tether" and Token_abbrev = "USDT") and one is unsigned integer Total_supply=0, next we have mapped our address with the Balances .Then we have created two function 1.Mint function which take address and value as parameter's and then increase the total supply and the balance of the “sender” with the Value.
 2.Burn function takes address and value as parameter, then if statement is executed which says that balance of "sender" is greater than or equal to the amount that is supposed to be burned.then It will deduct the value from the total supply and from the balance of the “sender”.
 
 ### Executing program
