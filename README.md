@@ -49,7 +49,3 @@ Once the contract is deployed, you can interact with it by calling the mint func
 
 Ankit kumar
 
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
